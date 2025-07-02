@@ -51,7 +51,7 @@ public class SystemAccountService : ISystemAccountService
 
     public async Task<SystemAccount> UpdateAccountAsync(SystemAccount account)
     {
-        if (await EmailExistsAsync(account.AccountEmail, account.AccountId))
+        if (await EmailExistsAsync(account.AccountEmail, account.AccountID))
         {
             throw new InvalidOperationException("Email already exists.");
         }
@@ -79,19 +79,19 @@ public class SystemAccountService : ISystemAccountService
             a.AccountEmail.Contains(searchTerm));
     }
 
-    public async Task<bool> EmailExistsAsync(string email, short? excludeId = null)
+    public async Task<bool> EmailExistsAsync(string email, short? excludeID = null)
     {
-        if (excludeId.HasValue)
+        if (excludeID.HasValue)
         {
             return await _unitOfWork.SystemAccounts.ExistsAsync(a =>
-                a.AccountEmail == email && a.AccountId != excludeId.Value);
+                a.AccountEmail == email && a.AccountID != excludeID.Value);
         }
 
         return await _unitOfWork.SystemAccounts.ExistsAsync(a => a.AccountEmail == email);
     }
 
-    public async Task<bool> HasCreatedNewsAsync(short accountId)
+    public async Task<bool> HasCreatedNewsAsync(short accountID)
     {
-        return await _unitOfWork.NewsArticles.ExistsAsync(n => n.CreatedById == accountId);
+        return await _unitOfWork.NewsArticles.ExistsAsync(n => n.CreatedById == accountID);
     }
 }

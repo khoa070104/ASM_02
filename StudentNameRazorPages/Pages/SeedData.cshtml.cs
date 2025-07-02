@@ -147,7 +147,7 @@ public class SeedDataModel : PageModel
                 NewsContent = "The university is excited to welcome all students for the new academic year 2024. We have prepared various programs and activities to ensure a successful and enriching educational experience. New facilities have been added, and our faculty is ready to support students in their academic journey.",
                 CategoryId = 1, // General News
                 NewsStatus = true,
-                CreatedById = staffAccount.AccountId,
+                CreatedById = staffAccount.AccountID,
                 CreatedDate = DateTime.Now.AddDays(-5),
                 NewsSource = "University Administration"
             },
@@ -158,7 +158,7 @@ public class SeedDataModel : PageModel
                 NewsContent = "The university has officially opened its new research center, equipped with the latest technology and equipment. This facility will support various research projects across different disciplines and provide students with hands-on research experience.",
                 CategoryId = 2, // Academic
                 NewsStatus = true,
-                CreatedById = staffAccount.AccountId,
+                CreatedById = staffAccount.AccountID,
                 CreatedDate = DateTime.Now.AddDays(-3),
                 NewsSource = "Research Department"
             },
@@ -169,7 +169,7 @@ public class SeedDataModel : PageModel
                 NewsContent = "The annual sports festival will take place next month with various competitions and activities. Students from all departments are encouraged to participate. Registration is now open for individual and team events.",
                 CategoryId = 3, // Events
                 NewsStatus = true,
-                CreatedById = staffAccount.AccountId,
+                CreatedById = staffAccount.AccountID,
                 CreatedDate = DateTime.Now.AddDays(-1),
                 NewsSource = "Sports Department"
             }

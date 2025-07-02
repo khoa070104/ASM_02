@@ -42,7 +42,7 @@ public class DashboardModel : PageModel
         try
         {
             // Load dashboard data
-            var myNews = await _newsService.GetNewsByAuthorAsync(CurrentUser.AccountId);
+            var myNews = await _newsService.GetNewsByAuthorAsync(CurrentUser.AccountID);
             var categories = await _categoryService.GetActiveCategoriesAsync();
 
             MyNewsCount = myNews.Count();

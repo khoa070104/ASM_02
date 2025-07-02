@@ -12,7 +12,7 @@ public interface ISystemAccountService
     Task<SystemAccount> CreateAccountAsync(SystemAccount account);
     Task<SystemAccount> UpdateAccountAsync(SystemAccount account);
     Task<bool> DeleteAccountAsync(short id);
-    Task<bool> HasCreatedNewsAsync(short accountId);
+    Task<bool> HasCreatedNewsAsync(short accountID);
     Task<IEnumerable<SystemAccount>> SearchAccountsAsync(string searchTerm);
     Task<bool> EmailExistsAsync(string email, short? excludeId = null);
 }

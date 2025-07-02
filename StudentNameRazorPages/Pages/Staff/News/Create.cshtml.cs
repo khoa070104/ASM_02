@@ -95,7 +95,7 @@ public class CreateModel : PageModel
                 NewsSource = Input.NewsSource,
                 CategoryId = Input.CategoryId,
                 NewsStatus = Input.NewsStatus,
-                CreatedById = currentUser.AccountId,
+                CreatedById = currentUser.AccountID,
                 CreatedDate = DateTime.Now
             };
 

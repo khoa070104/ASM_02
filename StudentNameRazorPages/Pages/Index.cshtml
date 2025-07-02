@@ -1,10 +1,53 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h1 class="display-4 mb-4">Welcome to FU News Management</h1>
+            <p class="lead">Your central hub for managing and accessing FPT University news and announcements.</p>
+            
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <div class="mt-4">
+                    <a asp-page="/Login" class="btn btn-primary btn-lg">
+                        <i class="fas fa-sign-in-alt me-2"></i>Login to Continue
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-newspaper fa-3x mb-3 text-primary"></i>
+                <h5 class="card-title">Latest News</h5>
+                <p class="card-text">Stay updated with the latest news and announcements from FPT University.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                <h5 class="card-title">Community</h5>
+                <p class="card-text">Connect with students, staff, and faculty members in our vibrant community.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-calendar-alt fa-3x mb-3 text-primary"></i>
+                <h5 class="card-title">Events</h5>
+                <p class="card-text">Discover upcoming events, workshops, and activities at FPT University.</p>
+            </div>
+        </div>
+    </div>
 </div>

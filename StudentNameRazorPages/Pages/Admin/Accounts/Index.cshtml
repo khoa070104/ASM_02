@@ -92,7 +92,7 @@
                                 {
                                     <tr>
                                         <td>
-                                            <strong>@account.AccountId</strong>
+                                            <strong>@account.AccountID</strong>
                                         </td>
                                         <td>
                                             <div class="d-flex align-items-center">
@@ -116,19 +116,19 @@
                                         <td>
                                             <div class="btn-group" role="group">
                                                 <button type="button" class="btn btn-outline-info btn-sm" 
-                                                        onclick="viewAccount(@account.AccountId, '@account.AccountName', '@account.AccountEmail', @account.AccountRole)" 
+                                                        onclick="viewAccount(@account.AccountID, '@account.AccountName', '@account.AccountEmail', @account.AccountRole)" 
                                                         title="View Details">
                                                     <i class="fas fa-eye"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-outline-warning btn-sm" 
-                                                        onclick="editAccount(@account.AccountId, '@account.AccountName', '@account.AccountEmail', @account.AccountRole)" 
+                                                        onclick="editAccount(@account.AccountID, '@account.AccountName', '@account.AccountEmail', @account.AccountRole)" 
                                                         title="Edit">
                                                     <i class="fas fa-edit"></i>
                                                 </button>
                                                 @if (account.AccountEmail != "admin@FUNewsManagementSystem.org")
                                                 {
                                                     <button type="button" class="btn btn-outline-danger btn-sm" 
-                                                            onclick="deleteAccount(@account.AccountId, '@account.AccountName')" 
+                                                            onclick="deleteAccount(@account.AccountID, '@account.AccountName')" 
                                                             title="Delete">
                                                         <i class="fas fa-trash"></i>
                                                     </button>
@@ -207,7 +207,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <form method="post" asp-page-handler="Edit">
-                <input type="hidden" id="editAccountId" name="AccountId">
+                <input type="hidden" id="editAccountID" name="AccountID">
                 <div class="modal-header">
                     <h5 class="modal-title">
                         <i class="fas fa-user-edit me-2"></i>Edit Account
@@ -261,7 +261,7 @@
             <div class="modal-body">
                 <dl class="row">
                     <dt class="col-sm-4">Account ID:</dt>
-                    <dd class="col-sm-8" id="viewAccountId"></dd>
+                    <dd class="col-sm-8" id="viewAccountID"></dd>
                     
                     <dt class="col-sm-4">Full Name:</dt>
                     <dd class="col-sm-8" id="viewAccountName"></dd>
@@ -287,7 +287,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         function viewAccount(id, name, email, role) {
-            document.getElementById('viewAccountId').textContent = id;
+            document.getElementById('viewAccountID').textContent = id;
             document.getElementById('viewAccountName').textContent = name;
             document.getElementById('viewAccountEmail').textContent = email;
             
@@ -300,7 +300,7 @@
         }
 
         function editAccount(id, name, email, role) {
-            document.getElementById('editAccountId').value = id;
+            document.getElementById('editAccountID').value = id;
             document.getElementById('editAccountName').value = name;
             document.getElementById('editAccountEmail').value = email;
             document.getElementById('editAccountRole').value = role;
@@ -329,7 +329,7 @@
                     // Add account ID
                     const idInput = document.createElement('input');
                     idInput.type = 'hidden';
-                    idInput.name = 'accountId';
+                    idInput.name = 'accountID';
                     idInput.value = id;
                     form.appendChild(idInput);
                     

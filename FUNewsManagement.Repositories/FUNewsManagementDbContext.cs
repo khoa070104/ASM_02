@@ -70,7 +70,7 @@ public class FUNewsManagementDbContext : DbContext
         modelBuilder.Entity<SystemAccount>().HasData(
             new SystemAccount
             {
-                AccountId = 1,
+                AccountID = 1,
                 AccountName = "Administrator",
                 AccountEmail = "admin@FUNewsManagementSystem.org",
                 AccountRole = 0, // Admin role

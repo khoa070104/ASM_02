@@ -86,7 +86,7 @@ public class IndexModel : PageModel
 
             // Check if email already exists (excluding current account)
             var existingAccount = await _accountService.GetAccountByEmailAsync(accountEmail);
-            if (existingAccount != null && existingAccount.AccountId != currentUserId)
+            if (existingAccount != null && existingAccount.AccountID != currentUserId)
             {
                 TempData["ErrorMessage"] = "An account with this email already exists.";
                 return RedirectToPage();

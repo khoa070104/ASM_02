@@ -87,7 +87,7 @@ public class IndexModel : PageModel
         return RedirectToPage();
     }
 
-    public async Task<IActionResult> OnPostEditAsync(short accountId, string accountName, string accountEmail, short accountRole, string? newPassword)
+    public async Task<IActionResult> OnPostEditAsync(short accountID, string accountName, string accountEmail, short accountRole, string? newPassword)
     {
         // Check if user is admin
         if (!SessionHelper.IsAdmin(HttpContext.Session))
@@ -97,7 +97,7 @@ public class IndexModel : PageModel
 
         try
         {
-            var account = await _accountService.GetAccountByIdAsync(accountId);
+            var account = await _accountService.GetAccountByIdAsync(accountID);
             if (account == null)
             {
                 TempData["ErrorMessage"] = "Account not found.";
@@ -113,7 +113,7 @@ public class IndexModel : PageModel
 
             // Check if email already exists (excluding current account)
             var existingAccount = await _accountService.GetAccountByEmailAsync(accountEmail);
-            if (existingAccount != null && existingAccount.AccountId != accountId)
+            if (existingAccount != null && existingAccount.AccountID != accountID)
             {
                 TempData["ErrorMessage"] = "An account with this email already exists.";
                 return RedirectToPage();
@@ -140,7 +140,7 @@ public class IndexModel : PageModel
         return RedirectToPage();
     }
 
-    public async Task<IActionResult> OnPostDeleteAsync(short accountId)
+    public async Task<IActionResult> OnPostDeleteAsync(short accountID)
     {
         // Check if user is admin
         if (!SessionHelper.IsAdmin(HttpContext.Session))
@@ -150,7 +150,7 @@ public class IndexModel : PageModel
 
         try
         {
-            var account = await _accountService.GetAccountByIdAsync(accountId);
+            var account = await _accountService.GetAccountByIdAsync(accountID);
             if (account == null)
             {
                 TempData["ErrorMessage"] = "Account not found.";
@@ -165,13 +165,13 @@ public class IndexModel : PageModel
             }
 
             // Check if account has created news articles
-            if (await _accountService.HasCreatedNewsAsync(accountId))
+            if (await _accountService.HasCreatedNewsAsync(accountID))
             {
                 TempData["ErrorMessage"] = "Cannot delete account that has created news articles. Please reassign or delete the news articles first.";
                 return RedirectToPage();
             }
 
-            var success = await _accountService.DeleteAccountAsync(accountId);
+            var success = await _accountService.DeleteAccountAsync(accountID);
             if (success)
             {
                 TempData["SuccessMessage"] = "Account deleted successfully!";

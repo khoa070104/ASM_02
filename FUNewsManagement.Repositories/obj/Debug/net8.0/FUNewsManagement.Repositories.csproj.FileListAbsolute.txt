@@ -1,0 +1,16 @@
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\bin\Debug\net8.0\FUNewsManagement.Repositories.deps.json
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\bin\Debug\net8.0\FUNewsManagement.Repositories.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\bin\Debug\net8.0\FUNewsManagement.Repositories.pdb
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\bin\Debug\net8.0\FUNewsManagement.Models.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\bin\Debug\net8.0\FUNewsManagement.Models.pdb
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.csproj.AssemblyReference.cache
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.AssemblyInfoInputs.cache
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.AssemblyInfo.cs
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.csproj.CoreCompileInputs.cache
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.sourcelink.json
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsMa.50515BF0.Up2Date
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\refint\FUNewsManagement.Repositories.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\FUNewsManagement.Repositories.pdb
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Repositories\obj\Debug\net8.0\ref\FUNewsManagement.Repositories.dll

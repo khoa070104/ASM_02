@@ -13,9 +13,10 @@ public class IndexModel : PageModel
         _logger = logger;
     }
 
-    public IActionResult OnGet()
+    public bool IsAuthenticated { get; set; }
+
+    public void OnGet()
     {
-        // Redirect to public news page as default
-        return RedirectToPage("/News/Public");
+        IsAuthenticated = SessionHelper.IsLoggedIn(HttpContext.Session);
     }
 }

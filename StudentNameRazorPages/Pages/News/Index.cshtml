@@ -82,7 +82,7 @@
                                 <a href="/News/Details/@news.NewsArticleId" class="btn btn-sm btn-outline-primary">
                                     <i class="fas fa-eye"></i>
                                 </a>
-                                @if (Model.IsStaff && news.CreatedById == Model.CurrentUser?.AccountId)
+                                @if (Model.IsStaff && news.CreatedById == Model.CurrentUser?.AccountID)
                                 {
                                     <a href="/Staff/News/Edit/@news.NewsArticleId" class="btn btn-sm btn-outline-warning">
                                         <i class="fas fa-edit"></i>

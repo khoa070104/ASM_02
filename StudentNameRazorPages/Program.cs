@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using FUNewsManagement.Repositories;
-using FUNewsManagement.Repositories.Implementations;
-using FUNewsManagement.Services.Implementations;
+using FUNewsManagement.Repositories.Impl;
+using FUNewsManagement.Services.Impl;
 using StudentNameRazorPages.Hubs;
 using FUNewsManagement.Services;
 
@@ -30,12 +30,31 @@ builder.Services.AddScoped<ITagService, TagService>();
 // Add SignalR
 builder.Services.AddSignalR();
 
-// Add Session
+// Add Antiforgery
+builder.Services.AddAntiforgery(options => {
+    options.Cookie.Name = "X-CSRF-TOKEN";
+    options.Cookie.HttpOnly = true;
+    options.Cookie.SecurePolicy = builder.Environment.IsDevelopment() ? CookieSecurePolicy.None : CookieSecurePolicy.Always;
+    options.HeaderName = "X-CSRF-TOKEN";
+});
+
+// Add Session with enhanced security
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.Name = ".FUNews.Session";
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
+    options.Cookie.SecurePolicy = builder.Environment.IsDevelopment() ? CookieSecurePolicy.None : CookieSecurePolicy.Always;
+    options.Cookie.SameSite = SameSiteMode.Lax;
+});
+
+// Add cookie policy
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => false; // Disable for development
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+    options.Secure = builder.Environment.IsDevelopment() ? CookieSecurePolicy.None : CookieSecurePolicy.Always;
 });
 
 var app = builder.Build();
@@ -52,6 +71,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseCookiePolicy(); // Add cookie policy middleware
 app.UseSession();
 app.UseAuthorization();
 

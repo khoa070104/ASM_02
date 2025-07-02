@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">
                     <i class="fas fa-newspaper me-2"></i>FU News Management
@@ -33,59 +33,62 @@
                     <ul class="navbar-nav flex-grow-1">
                         @if (isLoggedIn)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-page="/News/Index">
-                                    <i class="fas fa-newspaper me-1"></i>News
-                                </a>
-                            </li>
-
                             @if (isAdmin)
                             {
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                        <i class="fas fa-cog me-1"></i>Admin
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/Dashboard">
+                                        <i class="fas fa-tachometer-alt me-1"></i>Admin Dashboard
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" asp-page="/Admin/Accounts/Index">
-                                            <i class="fas fa-users me-1"></i>Manage Accounts
-                                        </a></li>
-                                        <li><a class="dropdown-item" asp-page="/Admin/Reports/Index">
-                                            <i class="fas fa-chart-bar me-1"></i>Reports
-                                        </a></li>
-                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/Accounts/Index">
+                                        <i class="fas fa-users me-1"></i>Manage Accounts
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/Reports/Index">
+                                        <i class="fas fa-chart-bar me-1"></i>Reports
+                                    </a>
                                 </li>
                             }
-
-                            @if (isStaff)
+                            else if (isStaff)
                             {
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                        <i class="fas fa-edit me-1"></i>Staff
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Staff/Dashboard">
+                                        <i class="fas fa-tachometer-alt me-1"></i>Staff Dashboard
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" asp-page="/Staff/Categories/Index">
-                                            <i class="fas fa-tags me-1"></i>Categories
-                                        </a></li>
-                                        <li><a class="dropdown-item" asp-page="/Staff/News/Index">
-                                            <i class="fas fa-newspaper me-1"></i>My News
-                                        </a></li>
-                                        <li><a class="dropdown-item" asp-page="/Staff/Profile/Index">
-                                            <i class="fas fa-user me-1"></i>Profile
-                                        </a></li>
-                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Staff/News/Index">
+                                        <i class="fas fa-newspaper me-1"></i>Manage News
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Staff/Categories/Index">
+                                        <i class="fas fa-tags me-1"></i>Categories
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Staff/Profile/Index">
+                                        <i class="fas fa-user me-1"></i>Profile
+                                    </a>
                                 </li>
                             }
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-page="/News/Public">
-                                    <i class="fas fa-newspaper me-1"></i>Public News
-                                </a>
-                            </li>
+                            else if (isLecturer)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Lecturer/Dashboard">
+                                        <i class="fas fa-tachometer-alt me-1"></i>Lecturer Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/News/Index">
+                                        <i class="fas fa-newspaper me-1"></i>View News
+                                    </a>
+                                </li>
+                            }
                         }
                     </ul>
-
                     <ul class="navbar-nav">
                         @if (isLoggedIn)
                         {
@@ -94,13 +97,12 @@
                                     <i class="fas fa-user me-1"></i>@currentUser?.AccountName
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" asp-page="/Profile/Index">
-                                        <i class="fas fa-user-edit me-1"></i>Profile
-                                    </a></li>
                                     <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" asp-page="/Logout">
-                                        <i class="fas fa-sign-out-alt me-1"></i>Logout
-                                    </a></li>
+                                    <li>
+                                        <a href="#" onclick="performLogout()" class="dropdown-item">
+                                            <i class="fas fa-sign-out-alt me-1"></i>Logout
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                         }
@@ -125,13 +127,23 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - FU News Management System - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2025 - KhoaNA - QE180035
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        function performLogout() {
+            // Show loading indicator
+            document.body.style.cursor = 'wait';
+            
+            // Navigate to logout page
+            window.location.href = '/Logout';
+        }
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

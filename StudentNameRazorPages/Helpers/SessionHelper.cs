@@ -59,7 +59,7 @@ public static class SessionHelper
     public static short GetUserId(ISession session)
     {
         var user = GetCurrentUser(session);
-        return user?.AccountId ?? 0;
+        return user?.AccountID ?? 0;
     }
 
     public static int GetUserRole(ISession session)

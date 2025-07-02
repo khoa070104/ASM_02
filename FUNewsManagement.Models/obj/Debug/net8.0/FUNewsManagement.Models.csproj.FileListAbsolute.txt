@@ -1,0 +1,13 @@
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\bin\Debug\net8.0\FUNewsManagement.Models.deps.json
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\bin\Debug\net8.0\FUNewsManagement.Models.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\bin\Debug\net8.0\FUNewsManagement.Models.pdb
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.csproj.AssemblyReference.cache
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.AssemblyInfoInputs.cache
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.AssemblyInfo.cs
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.csproj.CoreCompileInputs.cache
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.sourcelink.json
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\refint\FUNewsManagement.Models.dll
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\FUNewsManagement.Models.pdb
+D:\Downloads\ASM2\Assignment2-PRN222\FUNewsManagement.Models\obj\Debug\net8.0\ref\FUNewsManagement.Models.dll

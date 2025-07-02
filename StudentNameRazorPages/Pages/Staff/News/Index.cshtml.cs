@@ -39,7 +39,7 @@ public class IndexModel : PageModel
         try
         {
             // Load user's news articles
-            var myNews = await _newsService.GetNewsByAuthorAsync(currentUser.AccountId);
+            var myNews = await _newsService.GetNewsByAuthorAsync(currentUser.AccountID);
 
             // Apply filters
             if (!string.IsNullOrEmpty(SearchTerm))

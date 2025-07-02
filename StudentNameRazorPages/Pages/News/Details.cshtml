@@ -80,7 +80,7 @@
                         <a href="/News/Index" class="btn btn-outline-primary">
                             <i class="fas fa-arrow-left me-2"></i>Back to News
                         </a>
-                        @if (Model.IsStaff && Model.NewsArticle.CreatedById == Model.CurrentUser?.AccountId)
+                        @if (Model.IsStaff && Model.NewsArticle.CreatedById == Model.CurrentUser?.AccountID)
                         {
                             <div class="btn-group">
                                 <a href="/Staff/News/Edit/@Model.NewsArticle.NewsArticleId" class="btn btn-warning">
