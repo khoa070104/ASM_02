@@ -1,0 +1,167 @@
+@page
+@model StudentNameRazorPages.Pages.Lecturer.DashboardModel
+@{
+    ViewData["Title"] = "Lecturer Dashboard";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h1 class="mb-4">
+            <i class="fas fa-graduation-cap me-2"></i>Lecturer Dashboard
+        </h1>
+        <p class="lead">Welcome, @Model.CurrentUser?.AccountName!</p>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-4">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4>@Model.TotalActiveNews</h4>
+                        <p class="mb-0">Active News Articles</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-newspaper fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4>@Model.TotalCategories</h4>
+                        <p class="mb-0">News Categories</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-tags fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4>@Model.RecentNewsCount</h4>
+                        <p class="mb-0">Recent Articles (This Week)</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-clock fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-search me-2"></i>Browse News</h5>
+            </div>
+            <div class="card-body">
+                <form method="get" asp-page="/News/Index">
+                    <div class="input-group mb-3">
+                        <input type="text" name="search" class="form-control" placeholder="Search news articles..." value="@Model.SearchTerm">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="d-grid gap-2">
+                    <a href="/News/Index" class="btn btn-primary">
+                        <i class="fas fa-list me-2"></i>View All News
+                    </a>
+                    <a href="/News/Categories" class="btn btn-outline-success">
+                        <i class="fas fa-tags me-2"></i>Browse by Category
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-star me-2"></i>Latest News</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.LatestNews.Any())
+                {
+                    <div class="list-group list-group-flush">
+                        @foreach (var news in Model.LatestNews.Take(5))
+                        {
+                            <a href="/News/Details/@news.NewsArticleId" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-1">@news.NewsTitle</h6>
+                                    <small>@news.CreatedDate.ToString("MMM dd")</small>
+                                </div>
+                                @if (!string.IsNullOrEmpty(news.Headline))
+                                {
+                                    <p class="mb-1 text-muted">@news.Headline</p>
+                                }
+                                <small class="text-muted">
+                                    <i class="fas fa-tag me-1"></i>@news.Category?.CategoryName
+                                </small>
+                            </a>
+                        }
+                    </div>
+                    <div class="mt-3">
+                        <a href="/News/Index" class="btn btn-sm btn-outline-primary">View All News</a>
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">No news articles available.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-list me-2"></i>News Categories</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.Categories.Any())
+                {
+                    <div class="row">
+                        @foreach (var category in Model.Categories)
+                        {
+                            <div class="col-md-4 mb-3">
+                                <div class="card border-left-primary">
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <i class="fas fa-tag me-2"></i>@category.CategoryName
+                                        </h6>
+                                        @if (!string.IsNullOrEmpty(category.CategoryDescription))
+                                        {
+                                            <p class="card-text text-muted small">@category.CategoryDescription</p>
+                                        }
+                                        <a href="/News/Index?categoryId=@category.CategoryId" class="btn btn-sm btn-outline-primary">
+                                            View News
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">No categories available.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

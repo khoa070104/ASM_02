@@ -1,0 +1,179 @@
+@page "/News/Public/{id}"
+@model StudentNameRazorPages.Pages.News.PublicDetailsModel
+@{
+    ViewData["Title"] = Model.NewsArticle?.NewsTitle ?? "News Details";
+    Layout = "_PublicLayout";
+}
+
+<div class="container">
+    @if (Model.NewsArticle != null)
+    {
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/News/Public">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@Model.NewsArticle.NewsTitle</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <article class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-light text-primary">@Model.NewsArticle.Category?.CategoryName</span>
+                            <small><i class="fas fa-calendar me-1"></i>@Model.NewsArticle.CreatedDate.ToString("MMMM dd, yyyy")</small>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title mb-3">@Model.NewsArticle.NewsTitle</h1>
+
+                        @if (!string.IsNullOrEmpty(Model.NewsArticle.Headline))
+                        {
+                            <p class="lead text-muted mb-4">@Model.NewsArticle.Headline</p>
+                        }
+
+                        <div class="mb-4">
+                            <small class="text-muted">
+                                <i class="fas fa-user me-1"></i>By @Model.NewsArticle.CreatedBy?.AccountName
+                                <span class="mx-2">|</span>
+                                <i class="fas fa-clock me-1"></i>@Model.NewsArticle.CreatedDate.ToString("MMMM dd, yyyy 'at' HH:mm")
+                                @if (Model.NewsArticle.ModifiedDate.HasValue)
+                                {
+                                    <span class="mx-2">|</span>
+                                    <span><i class="fas fa-edit me-1"></i>Updated @Model.NewsArticle.ModifiedDate.Value.ToString("MMM dd, yyyy")</span>
+                                }
+                            </small>
+                        </div>
+
+                        <hr>
+
+                        <div class="news-content" style="line-height: 1.8;">
+                            @Html.Raw(Model.NewsArticle.NewsContent.Replace("\n", "<br>"))
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.NewsArticle.NewsSource))
+                        {
+                            <hr>
+                            <p class="text-muted">
+                                <i class="fas fa-link me-1"></i><strong>Source:</strong> @Model.NewsArticle.NewsSource
+                            </p>
+                        }
+
+                        @if (Model.NewsArticle.NewsTags.Any())
+                        {
+                            <hr>
+                            <div class="mb-3">
+                                <strong><i class="fas fa-tags me-2"></i>Tags:</strong>
+                                @foreach (var newsTag in Model.NewsArticle.NewsTags)
+                                {
+                                    <span class="badge bg-secondary me-1">@newsTag.Tag?.TagName</span>
+                                }
+                            </div>
+                        }
+                    </div>
+                    <div class="card-footer bg-light">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="/News/Public" class="btn btn-outline-primary">
+                                <i class="fas fa-arrow-left me-2"></i>Back to News
+                            </a>
+                            <div class="social-share">
+                                <small class="text-muted me-2">Share:</small>
+                                <a href="#" class="btn btn-sm btn-outline-primary me-1" title="Share on Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="btn btn-sm btn-outline-info me-1" title="Share on Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="btn btn-sm btn-outline-success" title="Share on WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Article Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-5">Category:</dt>
+                            <dd class="col-sm-7">@Model.NewsArticle.Category?.CategoryName</dd>
+
+                            <dt class="col-sm-5">Author:</dt>
+                            <dd class="col-sm-7">@Model.NewsArticle.CreatedBy?.AccountName</dd>
+
+                            <dt class="col-sm-5">Published:</dt>
+                            <dd class="col-sm-7">@Model.NewsArticle.CreatedDate.ToString("MMM dd, yyyy")</dd>
+
+                            @if (Model.NewsArticle.ModifiedDate.HasValue)
+                            {
+                                <dt class="col-sm-5">Updated:</dt>
+                                <dd class="col-sm-7">@Model.NewsArticle.ModifiedDate.Value.ToString("MMM dd, yyyy")</dd>
+                            }
+                        </dl>
+                    </div>
+                </div>
+
+                @if (Model.RelatedNews.Any())
+                {
+                    <div class="card shadow-sm mt-3">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0"><i class="fas fa-newspaper me-2"></i>Related News</h5>
+                        </div>
+                        <div class="card-body">
+                            @foreach (var related in Model.RelatedNews.Take(5))
+                            {
+                                <div class="mb-3 pb-3 border-bottom">
+                                    <a href="/News/Public/@related.NewsArticleId" class="text-decoration-none">
+                                        <h6 class="mb-1">@related.NewsTitle</h6>
+                                    </a>
+                                    <small class="text-muted">
+                                        <i class="fas fa-calendar me-1"></i>@related.CreatedDate.ToString("MMM dd, yyyy")
+                                    </small>
+                                </div>
+                            }
+                            <a href="/News/Public?categoryId=@Model.NewsArticle.CategoryId" class="btn btn-sm btn-outline-primary">
+                                View More in @Model.NewsArticle.Category?.CategoryName
+                            </a>
+                        </div>
+                    </div>
+                }
+
+                <div class="card shadow-sm mt-3">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0"><i class="fas fa-search me-2"></i>Quick Search</h5>
+                    </div>
+                    <div class="card-body">
+                        <form method="get" action="/News/Public">
+                            <div class="input-group">
+                                <input type="text" name="search" class="form-control" placeholder="Search news...">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-warning text-center">
+                    <i class="fas fa-exclamation-triangle me-2"></i>
+                    News article not found or not available.
+                    <a href="/News/Public" class="btn btn-primary ms-2">Back to News</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

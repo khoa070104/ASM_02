@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FU News Management System</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/StudentNameRazorPages.styles.css" asp-append-version="true" />
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-0">
+            <div class="container">
+                <a class="navbar-brand" href="/News/Public">
+                    <i class="fas fa-newspaper me-2 text-primary"></i>FU News
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/News/Public">
+                                <i class="fas fa-home me-1"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/News/Public?categoryId=1">
+                                <i class="fas fa-newspaper me-1"></i>General News
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/News/Public?categoryId=2">
+                                <i class="fas fa-graduation-cap me-1"></i>Academic
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/News/Public?categoryId=3">
+                                <i class="fas fa-calendar me-1"></i>Events
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="/Login">
+                                <i class="fas fa-sign-in-alt me-1"></i>Staff Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="border-top footer text-muted bg-light">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="fas fa-newspaper me-2"></i>FU News Management System</h5>
+                    <p class="mb-0">Stay connected with the latest news and updates from FPT University.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">
+                        &copy; 2024 - FU News Management System
+                    </p>
+                    <p class="mb-0">
+                        <a href="/Login" class="text-decoration-none">Staff Portal</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

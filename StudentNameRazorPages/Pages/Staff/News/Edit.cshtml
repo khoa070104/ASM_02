@@ -1,0 +1,205 @@
+@page "/Staff/News/Edit/{id}"
+@model StudentNameRazorPages.Pages.Staff.News.EditModel
+@{
+    ViewData["Title"] = "Edit News Article";
+}
+
+<div class="row">
+    <div class="col-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/Staff/Dashboard">Staff Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="/Staff/News/Index">News Management</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Edit News</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>
+                <i class="fas fa-edit me-2"></i>Edit News Article
+            </h1>
+            <a href="/Staff/News/Index" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-2"></i>Back to List
+            </a>
+        </div>
+    </div>
+</div>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-circle me-2"></i>@TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (Model.NewsArticle != null)
+{
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5><i class="fas fa-edit me-2"></i>Edit News Information</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="NewsArticle.NewsArticleId" />
+                        <input type="hidden" asp-for="NewsArticle.CreatedById" />
+                        <input type="hidden" asp-for="NewsArticle.CreatedDate" />
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="mb-3">
+                                    <label asp-for="NewsArticle.NewsTitle" class="form-label">News Title *</label>
+                                    <input asp-for="NewsArticle.NewsTitle" class="form-control" required maxlength="200">
+                                    <span asp-validation-for="NewsArticle.NewsTitle" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="NewsArticle.CategoryId" class="form-label">Category *</label>
+                                    <select asp-for="NewsArticle.CategoryId" class="form-select" required>
+                                        <option value="">Select Category</option>
+                                        @foreach (var category in Model.Categories)
+                                        {
+                                            <option value="@category.CategoryId">@category.CategoryName</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="NewsArticle.CategoryId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NewsArticle.Headline" class="form-label">Headline</label>
+                            <input asp-for="NewsArticle.Headline" class="form-control" maxlength="250">
+                            <span asp-validation-for="NewsArticle.Headline" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NewsArticle.NewsContent" class="form-label">News Content *</label>
+                            <textarea asp-for="NewsArticle.NewsContent" class="form-control" rows="10" required></textarea>
+                            <span asp-validation-for="NewsArticle.NewsContent" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NewsArticle.NewsSource" class="form-label">News Source</label>
+                            <input asp-for="NewsArticle.NewsSource" class="form-control" maxlength="300">
+                            <span asp-validation-for="NewsArticle.NewsSource" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Tags</label>
+                            <div class="row">
+                                @foreach (var tag in Model.Tags)
+                                {
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="SelectedTagIds" value="@tag.TagId" 
+                                                   @(Model.SelectedTagIds.Contains(tag.TagId) ? "checked" : "")>
+                                            <label class="form-check-label">
+                                                @tag.TagName
+                                            </label>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <input asp-for="NewsArticle.NewsStatus" class="form-check-input" type="checkbox">
+                                    <label asp-for="NewsArticle.NewsStatus" class="form-check-label">
+                                        Active (Published)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="fas fa-save me-2"></i>Update News
+                                </button>
+                                <a href="/Staff/News/Index" class="btn btn-secondary ms-2">
+                                    <i class="fas fa-times me-2"></i>Cancel
+                                </a>
+                            </div>
+                            <div>
+                                <a href="/News/Details/@Model.NewsArticle.NewsArticleId" class="btn btn-outline-info" target="_blank">
+                                    <i class="fas fa-eye me-2"></i>Preview
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5><i class="fas fa-info-circle me-2"></i>Article Information</h5>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-5">Created By:</dt>
+                        <dd class="col-sm-7">@Model.NewsArticle.CreatedBy?.AccountName</dd>
+                        
+                        <dt class="col-sm-5">Created Date:</dt>
+                        <dd class="col-sm-7">@Model.NewsArticle.CreatedDate.ToString("MMM dd, yyyy HH:mm")</dd>
+                        
+                        @if (Model.NewsArticle.ModifiedDate.HasValue)
+                        {
+                            <dt class="col-sm-5">Last Modified:</dt>
+                            <dd class="col-sm-7">@Model.NewsArticle.ModifiedDate.Value.ToString("MMM dd, yyyy HH:mm")</dd>
+                        }
+                        
+                        <dt class="col-sm-5">Status:</dt>
+                        <dd class="col-sm-7">
+                            <span class="badge bg-@(Model.NewsArticle.NewsStatus ? "success" : "secondary")">
+                                @(Model.NewsArticle.NewsStatus ? "Active" : "Inactive")
+                            </span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h5><i class="fas fa-lightbulb me-2"></i>Tips</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i>Use clear and descriptive titles</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Add relevant tags for better searchability</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Include source if applicable</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Preview before publishing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-warning text-center">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                News article not found.
+                <a href="/Staff/News/Index" class="btn btn-primary ms-2">Back to News List</a>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

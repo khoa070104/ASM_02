@@ -1,0 +1,192 @@
+@page
+@model StudentNameRazorPages.Pages.Staff.News.IndexModel
+@{
+    ViewData["Title"] = "My News Articles";
+}
+
+<div class="row">
+    <div class="col-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/Staff/Dashboard">Staff Dashboard</a></li>
+                <li class="breadcrumb-item active" aria-current="page">My News</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>
+                <i class="fas fa-newspaper me-2"></i>My News Articles
+            </h1>
+            <a href="/Staff/News/Create" class="btn btn-primary">
+                <i class="fas fa-plus me-2"></i>Create New Article
+            </a>
+        </div>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-circle me-2"></i>@TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<!-- Search and Filter -->
+<div class="row mb-4">
+    <div class="col-md-8">
+        <form method="get" class="d-flex">
+            <input type="text" name="search" class="form-control me-2" placeholder="Search my articles..." value="@Model.SearchTerm">
+            <select name="status" class="form-select me-2" style="max-width: 150px;">
+                <option value="">All Status</option>
+                <option value="true" selected="@(Model.StatusFilter == true)">Active</option>
+                <option value="false" selected="@(Model.StatusFilter == false)">Inactive</option>
+            </select>
+            <button type="submit" class="btn btn-outline-primary">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </div>
+    <div class="col-md-4 text-end">
+        <span class="text-muted">Total: @Model.NewsArticles.Count() articles</span>
+    </div>
+</div>
+
+<!-- News List -->
+<div class="row">
+    @if (Model.NewsArticles.Any())
+    {
+        @foreach (var news in Model.NewsArticles)
+        {
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span class="badge bg-primary">@news.Category?.CategoryName</span>
+                        <span class="badge bg-@(news.NewsStatus ? "success" : "secondary")">
+                            @(news.NewsStatus ? "Active" : "Inactive")
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@news.NewsTitle</h5>
+                        @if (!string.IsNullOrEmpty(news.Headline))
+                        {
+                            <p class="card-text text-muted small">@news.Headline</p>
+                        }
+                        <p class="card-text">
+                            @if (news.NewsContent.Length > 100)
+                            {
+                                @(news.NewsContent.Substring(0, 100) + "...")
+                            }
+                            else
+                            {
+                                @news.NewsContent
+                            }
+                        </p>
+                        @if (news.NewsTags.Any())
+                        {
+                            <div class="mb-2">
+                                @foreach (var newsTag in news.NewsTags.Take(3))
+                                {
+                                    <span class="badge bg-secondary me-1">@newsTag.Tag?.TagName</span>
+                                }
+                                @if (news.NewsTags.Count() > 3)
+                                {
+                                    <span class="text-muted small">+@(news.NewsTags.Count() - 3) more</span>
+                                }
+                            </div>
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">
+                                <i class="fas fa-calendar me-1"></i>@news.CreatedDate.ToString("MMM dd, yyyy")
+                                @if (news.ModifiedDate.HasValue)
+                                {
+                                    <br><span><i class="fas fa-edit me-1"></i>Updated @news.ModifiedDate.Value.ToString("MMM dd")</span>
+                                }
+                            </small>
+                            <div class="btn-group" role="group">
+                                <a href="/News/Details/@news.NewsArticleId" class="btn btn-sm btn-outline-primary" title="View">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="/Staff/News/Edit/@news.NewsArticleId" class="btn btn-sm btn-outline-warning" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a href="/Staff/News/Delete/@news.NewsArticleId" class="btn btn-sm btn-outline-danger" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-12">
+            <div class="alert alert-info text-center">
+                <i class="fas fa-info-circle me-2"></i>
+                @if (!string.IsNullOrEmpty(Model.SearchTerm) || Model.StatusFilter.HasValue)
+                {
+                    <span>No articles found matching your criteria.</span>
+                    <a href="/Staff/News/Index" class="btn btn-outline-primary ms-2">Clear Filters</a>
+                }
+                else
+                {
+                    <span>You haven't created any news articles yet.</span>
+                    <a href="/Staff/News/Create" class="btn btn-primary ms-2">Create Your First Article</a>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function deleteNews(newsId) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Create a form and submit it
+                    const form = document.createElement('form');
+                    form.method = 'POST';
+                    form.action = '/Staff/News/Delete/' + newsId;
+
+                    // Add anti-forgery token
+                    const token = document.querySelector('input[name="__RequestVerificationToken"]');
+                    if (token) {
+                        const hiddenToken = document.createElement('input');
+                        hiddenToken.type = 'hidden';
+                        hiddenToken.name = '__RequestVerificationToken';
+                        hiddenToken.value = token.value;
+                        form.appendChild(hiddenToken);
+                    }
+
+                    document.body.appendChild(form);
+                    form.submit();
+                }
+            });
+        }
+    </script>
+}

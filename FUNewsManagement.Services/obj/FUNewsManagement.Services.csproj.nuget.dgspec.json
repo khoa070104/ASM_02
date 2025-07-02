@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\FUNewsManagement.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
+        "projectName": "FUNewsManagement.Models",
+        "projectPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\NCPC\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NCPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
+        "projectName": "FUNewsManagement.Repositories",
+        "projectPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
+        "packagesPath": "C:\\Users\\NCPC\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NCPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj": {
+                "projectPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\FUNewsManagement.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\FUNewsManagement.Services.csproj",
+        "projectName": "FUNewsManagement.Services",
+        "projectPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\FUNewsManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\NCPC\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NCPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj": {
+                "projectPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj"
+              },
+              "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj": {
+                "projectPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
