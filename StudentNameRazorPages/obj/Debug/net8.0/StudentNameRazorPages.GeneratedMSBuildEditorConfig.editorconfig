@@ -17,115 +17,121 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentNameRazorPages
 build_property.RootNamespace = StudentNameRazorPages
-build_property.ProjectDir = D:\Downloads\ASM2\Assignment2-PRN222\StudentNameRazorPages\
+build_property.ProjectDir = E:\Downloads\ASM\ASM_02\StudentNameRazorPages\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Downloads\ASM2\Assignment2-PRN222\StudentNameRazorPages
+build_property.MSBuildProjectDirectory = E:\Downloads\ASM\ASM_02\StudentNameRazorPages
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/NCPC/AppData/Roaming/SonarLint for Visual Studio/.global/csharp/SonarLint.xml]
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Admin/Accounts/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Admin/Accounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Admin/Dashboard.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Admin/Reports/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Admin/Reports/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Error.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Lecturer/Dashboard.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Lecturer/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVjdHVyZXJcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Login.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Logout.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/News/Details.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/News/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xDYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/News/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/News/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/News/Public.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/News/Public.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xQdWJsaWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/News/PublicDetails.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/News/PublicDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c1xQdWJsaWNEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/SeedData.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/SeedData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VlZERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Shared/_PublicLayout.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Shared/_PublicLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QdWJsaWNMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/Categories/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/Dashboard.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/News/Create.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/News/Delete.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/News/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcTmV3c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/News/Edit.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/News/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcTmV3c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/News/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/News/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcTmV3c1xIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Staff/Profile/Index.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Staff/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/_ViewImports.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/_ViewStart.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Downloads/ASM2/Assignment2-PRN222/StudentNameRazorPages/Pages/Shared/_Layout.cshtml]
+[E:/Downloads/ASM/ASM_02/StudentNameRazorPages/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3nej81umca

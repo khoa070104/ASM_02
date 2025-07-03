@@ -156,7 +156,78 @@
 
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/lib/signalr/dist/browser/signalr.js"></script>
     <script>
+        // SignalR connection for real-time news updates
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/newsHub")
+            .build();
+
+        // Start the connection
+        connection.start().then(function () {
+            console.log("Connected to NewsHub");
+        }).catch(function (err) {
+            console.error(err.toString());
+        });
+
+        // Listen for news updates
+        connection.on("NewsCreated", function (newsData) {
+            // Show notification
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true
+            });
+
+            Toast.fire({
+                icon: 'success',
+                title: `Tin tức mới: "${newsData.title}" được tạo bởi ${newsData.author}`
+            });
+
+            // Optionally reload the page to show new content
+            setTimeout(() => {
+                window.location.reload();
+            }, 3000);
+        });
+
+        connection.on("NewsUpdated", function (newsData) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true
+            });
+
+            Toast.fire({
+                icon: 'info',
+                title: `Tin tức "${newsData.title}" đã được cập nhật`
+            });
+        });
+
+        connection.on("NewsDeleted", function (newsId) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true
+            });
+
+            Toast.fire({
+                icon: 'warning',
+                title: 'Một tin tức đã được xóa'
+            });
+
+            // Remove the news card from the view if it exists
+            const newsCard = document.querySelector(`[data-news-id="${newsId}"]`);
+            if (newsCard) {
+                newsCard.remove();
+            }
+        });
+
         function deleteNews(newsId) {
             Swal.fire({
                 title: 'Are you sure?',

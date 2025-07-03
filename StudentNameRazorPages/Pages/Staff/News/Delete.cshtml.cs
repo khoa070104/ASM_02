@@ -3,16 +3,20 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using FUNewsManagement.Models;
 using StudentNameRazorPages.Helpers;
 using FUNewsManagement.Services;
+using Microsoft.AspNetCore.SignalR;
+using StudentNameRazorPages.Hubs;
 
 namespace StudentNameRazorPages.Pages.Staff.News;
 
 public class DeleteModel : PageModel
 {
     private readonly INewsArticleService _newsService;
+    private readonly IHubContext<NewsHub> _hubContext;
 
-    public DeleteModel(INewsArticleService newsService)
+    public DeleteModel(INewsArticleService newsService, IHubContext<NewsHub> hubContext)
     {
         _newsService = newsService;
+        _hubContext = hubContext;
     }
 
     [BindProperty]
@@ -91,6 +95,9 @@ public class DeleteModel : PageModel
             
             if (success)
             {
+                // Send real-time notification
+                await _hubContext.Clients.All.SendAsync("NewsDeleted", NewsArticle.NewsArticleId);
+                
                 TempData["SuccessMessage"] = "News article deleted successfully!";
             }
             else

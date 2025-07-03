@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using FUNewsManagement.Models;
 using StudentNameRazorPages.Helpers;
 using FUNewsManagement.Services;
+using Microsoft.AspNetCore.SignalR;
+using StudentNameRazorPages.Hubs;
 
 namespace StudentNameRazorPages.Pages.Staff.News;
 
@@ -11,15 +13,18 @@ public class EditModel : PageModel
     private readonly INewsArticleService _newsService;
     private readonly ICategoryService _categoryService;
     private readonly ITagService _tagService;
+    private readonly IHubContext<NewsHub> _hubContext;
 
     public EditModel(
         INewsArticleService newsService,
         ICategoryService categoryService,
-        ITagService tagService)
+        ITagService tagService,
+        IHubContext<NewsHub> hubContext)
     {
         _newsService = newsService;
         _categoryService = categoryService;
         _tagService = tagService;
+        _hubContext = hubContext;
     }
 
     [BindProperty]
@@ -122,6 +127,17 @@ public class EditModel : PageModel
 
             // Update news with tags
             await _newsService.UpdateNewsAsync(existingNews, SelectedTagIds);
+
+            // Send real-time notification
+            var currentUser = SessionHelper.GetCurrentUser(HttpContext.Session);
+            await _hubContext.Clients.All.SendAsync("NewsUpdated", new
+            {
+                Id = existingNews.NewsArticleId,
+                Title = existingNews.NewsTitle,
+                Author = currentUser?.AccountName,
+                ModifiedDate = existingNews.ModifiedDate,
+                Status = existingNews.NewsStatus
+            });
 
             TempData["SuccessMessage"] = "News article updated successfully!";
             return RedirectToPage("/Staff/News/Index");

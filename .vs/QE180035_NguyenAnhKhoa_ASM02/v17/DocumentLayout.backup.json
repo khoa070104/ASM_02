@@ -1,157 +1,161 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\",
+  "WorkspaceRootPath": "E:\\Downloads\\ASM\\ASM_02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\admin\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\admin\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\lecturer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\lecturer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\shared\\_publiclayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\shared\\_publiclayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\news\\public.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\news\\public.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\admin\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\admin\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\seeddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\seeddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\impl\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\funewsmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\funewsmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\admin\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\admin\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\lecturer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\lecturer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\shared\\_publiclayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\shared\\_publiclayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\news\\public.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\news\\public.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\admin\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\admin\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\seeddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\seeddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\impl\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\impl\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\impl\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\impl\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\impl\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.services\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.services\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|solutionrelative:funewsmanagement.services\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\impl\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\impl\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\impl\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\impl\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\impl\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\impl\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\impl\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\impl\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\impl\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\impl\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\impl\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\impl\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|solutionrelative:funewsmanagement.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.services\\impl\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.services\\impl\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|solutionrelative:funewsmanagement.services\\impl\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.services\\impl\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.services\\impl\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|solutionrelative:funewsmanagement.services\\impl\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.services\\impl\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.services\\impl\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|solutionrelative:funewsmanagement.services\\impl\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.services\\impl\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.services\\impl\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480EF937-7D27-4982-97E1-1A90871161E6}|FUNewsManagement.Services\\FUNewsManagement.Services.csproj|solutionrelative:funewsmanagement.services\\impl\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.repositories\\funewsmanagement.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.repositories\\funewsmanagement.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5ED91C23-AEC3-4323-9D2A-8830F761A3E0}|FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj|solutionrelative:funewsmanagement.repositories\\funewsmanagement.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C2A7ED3-16E3-4642-BFFF-D19D566DB4F1}|FUNewsManagement.Models\\FUNewsManagement.Models.csproj|d:\\downloads\\asm2\\assignment2-prn222\\funewsmanagement.models\\funewsmanagement.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{7C2A7ED3-16E3-4642-BFFF-D19D566DB4F1}|FUNewsManagement.Models\\FUNewsManagement.Models.csproj|e:\\downloads\\asm\\asm_02\\funewsmanagement.models\\funewsmanagement.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7C2A7ED3-16E3-4642-BFFF-D19D566DB4F1}|FUNewsManagement.Models\\FUNewsManagement.Models.csproj|solutionrelative:funewsmanagement.models\\funewsmanagement.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|d:\\downloads\\asm2\\assignment2-prn222\\studentnamerazorpages\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|e:\\downloads\\asm\\asm_02\\studentnamerazorpages\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6225107A-0460-45B6-BDDA-34BCDFFCA823}|StudentNameRazorPages\\StudentNameRazorPages.csproj|solutionrelative:studentnamerazorpages\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -162,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,54 +174,72 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
+              "Title": "FUNewsManagementDbContext.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\FUNewsManagementDbContext.cs",
+              "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\FUNewsManagementDbContext.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\FUNewsManagementDbContext.cs",
+              "RelativeToolTip": "FUNewsManagement.Repositories\\FUNewsManagementDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:25:31.178Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:08:36.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\News\\Details.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\News\\Details.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\News\\Details.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\News\\Details.cshtml",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Lecturer\\Dashboard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:25:30.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:25:31.178Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\News\\Details.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\News\\Details.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\News\\Details.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\News\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:24:45.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:25:30.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T15:24:45.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Admin\\Reports\\Index.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Admin\\Reports\\Index.cshtml",
               "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Admin\\Reports\\Index.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Admin\\Reports\\Index.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Admin\\Reports\\Index.cshtml",
               "RelativeToolTip": "StudentNameRazorPages\\Pages\\Admin\\Reports\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -226,167 +248,168 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Public.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\News\\Public.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\News\\Public.cshtml",
               "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\News\\Public.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\News\\Public.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\News\\Public.cshtml",
               "RelativeToolTip": "StudentNameRazorPages\\Pages\\News\\Public.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAlwCoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:09:24.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:07:32.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "StudentNameRazorPages\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-02T15:03:50.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:09:24.662Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:01:30.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:00:19.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_PublicLayout.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwDwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:00:17.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SeedData.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\SeedData.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\SeedData.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\SeedData.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\SeedData.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T15:00:06.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Index.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Admin\\Accounts\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T14:59:40.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:07:32.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Error.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Error.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T14:59:39.452Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\appsettings.json",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\appsettings.json",
+              "RelativeToolTip": "StudentNameRazorPages\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T14:22:54.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T14:59:35.805Z",
-              "EditorCaption": ""
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "StudentNameRazorPages\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-02T15:03:50.369Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T14:59:34.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:01:30.542Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Login.cshtml",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Login.cshtml",
-              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Login.cshtml",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAawIkAAABiAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T14:23:48.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:00:19.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 8,
+              "Title": "_PublicLayout.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Shared\\_PublicLayout.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T15:00:17.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SeedData.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\SeedData.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\SeedData.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\SeedData.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\SeedData.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T15:00:06.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Index.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T14:59:40.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Error.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Error.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T14:59:39.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T14:59:35.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T14:59:34.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Login.cshtml",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Login.cshtml",
+              "RelativeToolTip": "StudentNameRazorPages\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAawIkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T14:23:48.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\ICategoryRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\ICategoryRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\ICategoryRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\ICategoryRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -394,11 +417,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\Impl\\UnitOfWork.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\UnitOfWork.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\UnitOfWork.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\Impl\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -406,11 +429,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TagRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\TagRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\TagRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\Impl\\TagRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\TagRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\TagRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\Impl\\TagRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -418,11 +441,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "SystemAccountRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\SystemAccountRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\SystemAccountRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\Impl\\SystemAccountRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\SystemAccountRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\SystemAccountRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\Impl\\SystemAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -430,11 +453,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "NewsArticleRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\NewsArticleRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\NewsArticleRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\Impl\\NewsArticleRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\NewsArticleRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\NewsArticleRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\Impl\\NewsArticleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -442,24 +465,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\CategoryRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\Impl\\CategoryRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\CategoryRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\CategoryRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\Impl\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:26:25.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T14:26:25.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "INewsArticleRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\INewsArticleRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\INewsArticleRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\INewsArticleRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\INewsArticleRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\INewsArticleRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\INewsArticleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -467,50 +489,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ISystemAccountService.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\ISystemAccountService.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\ISystemAccountService.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Services\\ISystemAccountService.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\ISystemAccountService.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\ISystemAccountService.cs",
               "RelativeToolTip": "FUNewsManagement.Services\\ISystemAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:26:12.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T14:26:12.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\GenericRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\GenericRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\Impl\\GenericRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\Impl\\GenericRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\Impl\\GenericRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\Impl\\GenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:26:18.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T14:26:18.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentNameRazorPages\\appsettings.json",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\appsettings.json",
-              "RelativeToolTip": "StudentNameRazorPages\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T14:22:54.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ISystemAccountRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\ISystemAccountRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\ISystemAccountRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\ISystemAccountRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\ISystemAccountRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\ISystemAccountRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\ISystemAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -518,11 +525,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\IUnitOfWork.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\IUnitOfWork.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -530,11 +537,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ITagRepository.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\ITagRepository.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\ITagRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\ITagRepository.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\ITagRepository.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\ITagRepository.cs",
               "RelativeToolTip": "FUNewsManagement.Repositories\\ITagRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -542,11 +549,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\ICategoryService.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Services\\ICategoryService.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\ICategoryService.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\ICategoryService.cs",
               "RelativeToolTip": "FUNewsManagement.Services\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -554,11 +561,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\CategoryService.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\CategoryService.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Services\\Impl\\CategoryService.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\CategoryService.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\CategoryService.cs",
               "RelativeToolTip": "FUNewsManagement.Services\\Impl\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -566,11 +573,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "TagService.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\TagService.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\TagService.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Services\\Impl\\TagService.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\TagService.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\TagService.cs",
               "RelativeToolTip": "FUNewsManagement.Services\\Impl\\TagService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -578,11 +585,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "SystemAccountService.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\SystemAccountService.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\SystemAccountService.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Services\\Impl\\SystemAccountService.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\SystemAccountService.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\SystemAccountService.cs",
               "RelativeToolTip": "FUNewsManagement.Services\\Impl\\SystemAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -590,11 +597,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "NewsArticleService.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\NewsArticleService.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\NewsArticleService.cs",
               "RelativeDocumentMoniker": "FUNewsManagement.Services\\Impl\\NewsArticleService.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Services\\Impl\\NewsArticleService.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Services\\Impl\\NewsArticleService.cs",
               "RelativeToolTip": "FUNewsManagement.Services\\Impl\\NewsArticleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -602,11 +609,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "FUNewsManagement.Repositories.csproj",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
               "RelativeDocumentMoniker": "FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
               "RelativeToolTip": "FUNewsManagement.Repositories\\FUNewsManagement.Repositories.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -614,11 +621,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "FUNewsManagement.Models.csproj",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
               "RelativeDocumentMoniker": "FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
               "RelativeToolTip": "FUNewsManagement.Models\\FUNewsManagement.Models.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -626,11 +633,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Login.cshtml.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Login.cshtml.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Login.cshtml.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Login.cshtml.cs",
               "RelativeToolTip": "StudentNameRazorPages\\Pages\\Login.cshtml.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAASwD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -638,16 +645,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Logout.cshtml.cs",
+              "DocumentMoniker": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "StudentNameRazorPages\\Pages\\Logout.cshtml.cs",
-              "ToolTip": "D:\\Downloads\\ASM2\\Assignment2-PRN222\\StudentNameRazorPages\\Pages\\Logout.cshtml.cs",
+              "ToolTip": "E:\\Downloads\\ASM\\ASM_02\\StudentNameRazorPages\\Pages\\Logout.cshtml.cs",
               "RelativeToolTip": "StudentNameRazorPages\\Pages\\Logout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:23:29.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T14:23:29.505Z"
             }
           ]
         }

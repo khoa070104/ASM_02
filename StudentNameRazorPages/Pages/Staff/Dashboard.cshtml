@@ -68,19 +68,32 @@
                 <h5><i class="fas fa-plus me-2"></i>Quick Actions</h5>
             </div>
             <div class="card-body">
-                <div class="d-grid gap-2">
-                    <a href="/Staff/News/Create" class="btn btn-primary">
-                        <i class="fas fa-plus me-2"></i>Create New Article
-                    </a>
-                    <a href="/Staff/News/Index" class="btn btn-outline-primary">
-                        <i class="fas fa-list me-2"></i>Manage My Articles
-                    </a>
-                    <a href="/Staff/Categories/Index" class="btn btn-outline-success">
-                        <i class="fas fa-tags me-2"></i>Manage Categories
-                    </a>
-                    <a href="/Staff/Profile/Index" class="btn btn-outline-info">
-                        <i class="fas fa-user me-2"></i>Edit Profile
-                    </a>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <a href="/Staff/News/Create" class="btn btn-primary w-100">
+                            <i class="fas fa-plus me-2"></i>Create New Article
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/Staff/News/Index" class="btn btn-outline-primary w-100">
+                            <i class="fas fa-list me-2"></i>Manage News
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/Staff/News/History" class="btn btn-outline-warning w-100">
+                            <i class="fas fa-history me-2"></i>News History
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/Staff/Categories/Index" class="btn btn-outline-success w-100">
+                            <i class="fas fa-tags me-2"></i>Manage Categories
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/Staff/Profile/Index" class="btn btn-outline-info w-100">
+                            <i class="fas fa-user me-2"></i>Edit Profile
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -116,6 +129,64 @@
                     <p class="text-muted">You haven't created any news articles yet.</p>
                     <a href="/Staff/News/Create" class="btn btn-primary">Create Your First Article</a>
                 }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Test Features Card for Staff -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card border-primary">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0"><i class="fas fa-flask me-2"></i>Test Staff Features</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-newspaper me-2"></i>News Management:</h6>
+                        <ul class="list-unstyled ms-3">
+                            <li>• <a href="/Staff/News/Create" class="text-decoration-none">Create new article</a> (with tags, real-time)</li>
+                            <li>• <a href="/Staff/News/Index" class="text-decoration-none">Manage my articles</a> (CRUD + real-time)</li>
+                            <li>• <a href="/Staff/News/History" class="text-decoration-none">View news history</a> (with statistics)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-tags me-2"></i>Category Management:</h6>
+                        <ul class="list-unstyled ms-3">
+                            <li>• <a href="/Staff/Categories/Index" class="text-decoration-none">Manage categories</a> (safe CRUD)</li>
+                            <li>• Try deleting category with news (will fail)</li>
+                            <li>• Try deleting category without news (success)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-user me-2"></i>Profile Management:</h6>
+                        <ul class="list-unstyled ms-3">
+                            <li>• <a href="/Staff/Profile/Index" class="text-decoration-none">Edit personal information</a></li>
+                            <li>• Change password</li>
+                            <li>• View news statistics</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-broadcast-tower me-2"></i>Real-time Features:</h6>
+                        <ul class="list-unstyled ms-3">
+                            <li>• Open 2 tabs, create news in tab 1</li>
+                            <li>• Tab 2 will receive real-time notification</li>
+                            <li>• Try edit/delete also have notifications</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="alert alert-info mt-3 mb-0">
+                    <i class="fas fa-info-circle me-2"></i>
+                    <strong>Test Guide:</strong> 
+                    1. Create some categories first | 
+                    2. Create news with tags | 
+                    3. Test edit/delete news | 
+                    4. Try deleting category with news (will fail) | 
+                    5. Open 2 tabs to test real-time
+                </div>
             </div>
         </div>
     </div>

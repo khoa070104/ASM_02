@@ -1,0 +1,262 @@
+@page
+@model StudentNameRazorPages.Pages.Staff.News.HistoryModel
+@{
+    ViewData["Title"] = "My News History";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">My News History</h1>
+    </div>
+
+    <!-- Alert Messages -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- Search and Filter Card -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Search and Filter</h6>
+        </div>
+        <div class="card-body">
+            <form method="get">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="search">Search:</label>
+                            <input type="text" class="form-control" id="search" name="search" 
+                                   value="@Model.SearchTerm" placeholder="Title, content...">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="status">Trạng thái:</label>
+                            <select class="form-control" id="status" name="status">
+                                <option value="">Tất cả</option>
+                                <option value="true" selected="@(Model.StatusFilter == true)">Đã xuất bản</option>
+                                <option value="false" selected="@(Model.StatusFilter == false)">Nháp</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="category">Danh mục:</label>
+                            <select class="form-control" id="category" name="categoryId">
+                                <option value="">Tất cả danh mục</option>
+                                @foreach (var category in Model.Categories)
+                                {
+                                    <option value="@category.CategoryId" selected="@(Model.CategoryFilter == category.CategoryId)">
+                                        @category.CategoryName
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <i class="fas fa-search"></i> Tìm kiếm
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Statistics Card -->
+    <div class="row mb-4">
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Tổng tin tức
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.TotalNews</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-newspaper fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Đã xuất bản
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.PublishedNews</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-check-circle fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Nháp
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.DraftNews</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-edit fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Danh mục sử dụng
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.CategoriesUsed</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-tags fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News History Table -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Danh sách tin tức (@Model.NewsArticles.Count() bài viết)</h6>
+        </div>
+        <div class="card-body">
+            @if (Model.NewsArticles.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Tiêu đề</th>
+                                <th>Danh mục</th>
+                                <th>Trạng thái</th>
+                                <th>Ngày tạo</th>
+                                <th>Ngày sửa</th>
+                                <th>Tags</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var news in Model.NewsArticles)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@news.NewsTitle</strong>
+                                        @if (!string.IsNullOrEmpty(news.Headline))
+                                        {
+                                            <br><small class="text-muted">@news.Headline</small>
+                                        }
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-info">@news.Category.CategoryName</span>
+                                    </td>
+                                    <td>
+                                        @if (news.NewsStatus)
+                                        {
+                                            <span class="badge badge-success">Đã xuất bản</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-warning">Nháp</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <small>@news.CreatedDate.ToString("dd/MM/yyyy HH:mm")</small>
+                                    </td>
+                                    <td>
+                                        @if (news.ModifiedDate.HasValue)
+                                        {
+                                            <small>@news.ModifiedDate.Value.ToString("dd/MM/yyyy HH:mm")</small>
+                                        }
+                                        else
+                                        {
+                                            <small class="text-muted">Chưa sửa</small>
+                                        }
+                                    </td>
+                                    <td>
+                                        @foreach (var newsTag in news.NewsTags)
+                                        {
+                                            <span class="badge badge-secondary mr-1">@newsTag.Tag.TagName</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <div class="btn-group" role="group">
+                                            <a href="/News/Details?id=@news.NewsArticleId" 
+                                               class="btn btn-info btn-sm" title="Xem chi tiết">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <a href="/Staff/News/Edit?id=@news.NewsArticleId" 
+                                               class="btn btn-warning btn-sm" title="Chỉnh sửa">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a href="/Staff/News/Delete?id=@news.NewsArticleId" 
+                                               class="btn btn-danger btn-sm" title="Xóa">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-4">
+                    <i class="fas fa-newspaper fa-3x text-gray-300 mb-3"></i>
+                    <h5 class="text-muted">Không có tin tức nào</h5>
+                    <p class="text-muted">
+                        @if (!string.IsNullOrEmpty(Model.SearchTerm) || Model.StatusFilter.HasValue || Model.CategoryFilter.HasValue)
+                        {
+                            <span>Không tìm thấy tin tức nào phù hợp với tiêu chí tìm kiếm.</span>
+                        }
+                        else
+                        {
+                            <span>Bạn chưa tạo tin tức nào. <a href="/Staff/News/Create">Tạo tin tức đầu tiên</a></span>
+                        }
+                    </p>
+                </div>
+            }
+        </div>
+    </div>
+</div> 

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace FUNewsManagement.Repositories.Migrations
 {
     /// <inheritdoc />
-    public partial class UpdateSystemAccountToShort : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

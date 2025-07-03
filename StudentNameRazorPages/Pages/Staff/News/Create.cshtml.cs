@@ -4,6 +4,8 @@ using FUNewsManagement.Models;
 using StudentNameRazorPages.Helpers;
 using System.ComponentModel.DataAnnotations;
 using FUNewsManagement.Services;
+using Microsoft.AspNetCore.SignalR;
+using StudentNameRazorPages.Hubs;
 
 namespace StudentNameRazorPages.Pages.Staff.News;
 
@@ -12,15 +14,18 @@ public class CreateModel : PageModel
     private readonly INewsArticleService _newsService;
     private readonly ICategoryService _categoryService;
     private readonly ITagService _tagService;
+    private readonly IHubContext<NewsHub> _hubContext;
 
     public CreateModel(
         INewsArticleService newsService,
         ICategoryService categoryService,
-        ITagService tagService)
+        ITagService tagService,
+        IHubContext<NewsHub> hubContext)
     {
         _newsService = newsService;
         _categoryService = categoryService;
         _tagService = tagService;
+        _hubContext = hubContext;
     }
 
     [BindProperty]
@@ -100,6 +105,16 @@ public class CreateModel : PageModel
             };
 
             await _newsService.CreateNewsAsync(newsArticle, SelectedTagIds);
+
+            // Send real-time notification
+            await _hubContext.Clients.All.SendAsync("NewsCreated", new
+            {
+                Id = newsArticle.NewsArticleId,
+                Title = newsArticle.NewsTitle,
+                Author = currentUser.AccountName,
+                CreatedDate = newsArticle.CreatedDate,
+                Status = newsArticle.NewsStatus
+            });
 
             TempData["SuccessMessage"] = "News article created successfully!";
             return RedirectToPage("/Staff/News/Index");

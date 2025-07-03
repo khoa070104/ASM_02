@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FUNewsManagement.Repositories.Migrations
 {
     [DbContext(typeof(FUNewsManagementDbContext))]
-    [Migration("20250702145616_UpdateSystemAccountToShort")]
-    partial class UpdateSystemAccountToShort
+    [Migration("20250703031052_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
