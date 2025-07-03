@@ -113,7 +113,9 @@ public class CreateModel : PageModel
                 Title = newsArticle.NewsTitle,
                 Author = currentUser.AccountName,
                 CreatedDate = newsArticle.CreatedDate,
-                Status = newsArticle.NewsStatus
+                Status = newsArticle.NewsStatus,
+                CategoryId = newsArticle.CategoryId,
+                Headline = newsArticle.Headline
             });
 
             TempData["SuccessMessage"] = "News article created successfully!";

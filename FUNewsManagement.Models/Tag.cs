@@ -16,6 +16,5 @@ public class Tag
     [StringLength(250)]
     public string? Note { get; set; }
 
-    // Navigation properties
     public virtual ICollection<NewsTag> NewsTags { get; set; } = new List<NewsTag>();
 }
